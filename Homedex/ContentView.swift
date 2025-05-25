@@ -1,24 +1,16 @@
 //
 //  ContentView.swift
-//  Homedex
+//  Shared
 //
-//  Created by Calvin Li on 5/23/25.
+//  Created by Calvin Li on 5/18/25.
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("ImagesView")
     }
-}
 
-#Preview {
-    ContentView()
 }
