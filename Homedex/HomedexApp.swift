@@ -11,7 +11,7 @@ import SwiftUI
 struct HomedexApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomARView()
         }
     }
 }
